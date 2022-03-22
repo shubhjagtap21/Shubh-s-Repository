@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e+nH4vNlRQqwdqPP8e7gudk0j3KJYSJSzgWf9vb5FkUG7DtpqyXXSPeYVSDCTUNcz2owf+HLHICJb9RJYjwttw==",
+  "success": true,
+  "projectFilePath": "F:\\Yoma Tech ASP.net\\Book Store\\BookStore\\BookStore\\BookStore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jagta\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
