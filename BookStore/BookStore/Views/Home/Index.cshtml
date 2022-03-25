@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <h1>Indian TIme Standard</h1>
+    @*
+        <h1>@DateTime.Now</h1>  <!--this is works using view engine-->
+        <h1>@DateTime.Now.ToString("dd-mm-yyyy")</h1>
+
+        <h1>Sum = @(3+8)</h1>
+        <hr>
+        <h1>MultiLine ---</h1>
+
+        @{
+            int a = 10;
+            int b = 20;
+            int c = a + b;
+
+        }
+
+        <h1>Sum = @c</h1>
+        <p>My Name Is Shubham </p>
+
+        <hr>
+        <h2>How to Write Email</h2>
+        <h2> my email is - SHubham@mail.com</h2>
+
+            <hr>
+            <h2>Esacape sequence</h2>
+            <h2>Twitter - @@SHubham</h2><!--Two more @@ is added then it will be printed-->
+    *@
+    <hr>
+
+    @*@{
+            int s = 10;
+        }
+
+        @if (s == 5)
+        {
+            a++;
+
+            <h1>Value of S is given as = @s</h1>
+        }
+        else if (s == 10)
+        {
+            <h1>Value of S From Else if Block 2</h1>
+        }
+        else
+        {
+            <h1>Something is wrong into S</h1>
+        }*@
+
+    @*@{
+        var list = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8 };
+
+    }
+    @{
+        foreach (var item in list)
+        {
+            <h1>@item</h1>
+        }
+    }*@
+
+</body>
+</html> 

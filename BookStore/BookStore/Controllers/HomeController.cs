@@ -8,9 +8,22 @@ namespace BookStore.Controllers
 {
     public class HomeController: Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "WebGentle";
+            //return View("TempView/ShubhamTemp.cshtml");//fullpathview
+            //return View("../../TempView/ShubhamTemp.cshtml");//relative view
+            //var obj = new { id = 1, name = "Shubham" };
+            //return View(obj);
+            //return View("ContactUs");
+            return View();
+        }
+        public ViewResult AboutUs()
+        {
+            return View();
+        }
+        public ViewResult ContactUs()
+        {
+            return View();
         }
     }
 }

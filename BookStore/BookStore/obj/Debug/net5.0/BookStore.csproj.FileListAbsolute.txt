@@ -37,3 +37,9 @@ F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\ref\BookSto
 F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\BookStore.pdb
 F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\BookStore.genruntimeconfig.cache
 F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\BookStore.csproj.CopyComplete
+F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\Razor\Views\Book\GetAllBook.cshtml.g.cs
+F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
+F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\Razor\Views\Shared\ContactUs.cshtml.g.cs
+F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\obj\Debug\net5.0\Razor\TempView\ShubhamTemp.cshtml.g.cs
+F:\Yoma Tech ASP.net\Book Store\BookStore\BookStore\bin\Debug\net5.0\libman.json

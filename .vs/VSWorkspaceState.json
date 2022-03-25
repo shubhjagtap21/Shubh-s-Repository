@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BookStore",
+    "\\BookStore\\BookStore",
+    "\\BookStore\\Views",
+    "\\BookStore\\Views\\Home"
   ],
-  "SelectedNode": "\\F:\\Yoma Tech ASP.net\\Book Store",
+  "SelectedNode": "\\BookStore\\Views\\Home",
   "PreviewInSolutionExplorer": false
 }

@@ -3,22 +3,33 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BookStore.Reprository;
+using BookStore.Models;
 
 namespace BookStore.Controllers
 {
     public class BookController : Controller
     {
-        public string GetAllBook()
+        private readonly BookReprository _BookReprository = null;
+        public BookController()
         {
-            return "All Books";
+            _BookReprository = new BookReprository();
         }
-        public string GetBook(int id)
+        public ViewResult GetAllBook()
+        //public List<BookModel> GetAllBook()
         {
-            return $"Ramayana Book with id ={id}" ;
+            var data= _BookReprository.GetAllBooks();
+            return View();
         }
-        public string SearchBook(string BookName,string AuthorName)
+        public BookModel GetBook(int id)
         {
-            return $"Book with Name ={BookName} & Book with author = {AuthorName}";
+            return _BookReprository.GetBookById(id);
+            //return $"Ramayana Book with id ={id}" ;
+        }
+        public List<BookModel> SearchBook(string BookName,string AuthorName)
+        {
+            return _BookReprository.SearchBook(BookName, AuthorName);
+            //return $"Book with Name ={BookName} & Book with author = {AuthorName}";
             //https://localhost:44361/book/SearchBook?BookName=bhagat&AuthorName=koshari
         }
     }
